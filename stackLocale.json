@@ -1,0 +1,408 @@
+[
+  {
+    "title": "19th Nov Meetup",
+    "locale": "en-us",
+    "uid": "blteba67aabc952b5d4",
+    "_content_type_uid": "meetups",
+    "_version": 7,
+    "_in_progress": false,
+    "_content_type_title": "Meetups",
+    "has_child": true,
+    "publish_details": [
+      {
+        "environment": "blt47630780e00a400b",
+        "locale": "en-us",
+        "time": "2024-12-20T06:08:01.813Z",
+        "user": "bltca5a2e5c98e92242",
+        "version": 3
+      },
+      {
+        "environment": "bltac433f3a012395fb",
+        "locale": "en-us",
+        "time": "2024-12-20T06:08:01.813Z",
+        "user": "bltca5a2e5c98e92242",
+        "version": 3
+      }
+    ],
+    "assets_references": [],
+    "_metadata": {
+      "references": [
+        {
+          "uid": "blt5b202fdaa2a71417",
+          "title": "Graphs - English",
+          "locale": "en-us",
+          "_version": 4,
+          "_content_type_uid": "blog",
+          "_in_progress": false,
+          "parent_uid": "blteba67aabc952b5d4",
+          "has_child": true,
+          "_content_type_title": "Blog",
+          "publish_details": [
+            {
+              "environment": "blt47630780e00a400b",
+              "locale": "en-us",
+              "time": "2024-12-19T16:09:46.229Z",
+              "user": "bltca5a2e5c98e92242",
+              "version": 4
+            },
+            {
+              "environment": "bltac433f3a012395fb",
+              "locale": "en-us",
+              "time": "2024-12-19T16:09:46.229Z",
+              "user": "bltca5a2e5c98e92242",
+              "version": 4
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "title": "Sindhur",
+    "locale": "en-us",
+    "uid": "blt6f0e30fbd9e033d0",
+    "_content_type_uid": "author",
+    "_version": 1,
+    "_in_progress": false,
+    "_content_type_title": "Author",
+    "has_child": true,
+    "publish_details": [
+      {
+        "environment": "blt47630780e00a400b",
+        "locale": "en-us",
+        "time": "2024-12-17T06:00:18.680Z",
+        "user": "bltca5a2e5c98e92242",
+        "version": 1
+      },
+      {
+        "environment": "bltac433f3a012395fb",
+        "locale": "en-us",
+        "time": "2024-12-17T06:00:18.680Z",
+        "user": "bltca5a2e5c98e92242",
+        "version": 1
+      }
+    ],
+    "assets_references": [],
+    "_metadata": {
+      "references": [
+        {
+          "uid": "bltcc33c37bedcddd57",
+          "title": "Contentstack",
+          "locale": "en-us",
+          "_version": 4,
+          "_content_type_uid": "company",
+          "_in_progress": false,
+          "parent_uid": "blt6f0e30fbd9e033d0",
+          "has_child": false,
+          "_content_type_title": "Company",
+          "publish_details": [
+            {
+              "environment": "blt47630780e00a400b",
+              "locale": "en-us",
+              "time": "2024-12-20T06:11:43.283Z",
+              "user": "bltca5a2e5c98e92242",
+              "version": 4
+            },
+            {
+              "environment": "bltac433f3a012395fb",
+              "locale": "en-us",
+              "time": "2024-12-20T06:11:43.283Z",
+              "user": "bltca5a2e5c98e92242",
+              "version": 4
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "title": "19th Nov Meetup",
+    "locale": "en-us",
+    "uid": "blteba67aabc952b5d4",
+    "_content_type_uid": "meetups",
+    "_version": 7,
+    "_in_progress": false,
+    "_content_type_title": "Meetups",
+    "has_child": true,
+    "publish_details": [
+      {
+        "environment": "blt47630780e00a400b",
+        "locale": "fr-fr",
+        "time": "2024-12-20T06:08:01.813Z",
+        "user": "bltca5a2e5c98e92242",
+        "version": 3
+      },
+      {
+        "environment": "bltac433f3a012395fb",
+        "locale": "fr-fr",
+        "time": "2024-12-20T06:08:01.813Z",
+        "user": "bltca5a2e5c98e92242",
+        "version": 3
+      }
+    ],
+    "assets_references": [],
+    "_metadata": {
+      "references": [
+        {
+          "uid": "blt5b202fdaa2a71417",
+          "title": "Graphs - French",
+          "locale": "fr-fr",
+          "_version": 1,
+          "_content_type_uid": "blog",
+          "_in_progress": false,
+          "parent_uid": "blteba67aabc952b5d4",
+          "has_child": true,
+          "_content_type_title": "Blog",
+          "publish_details": [
+            {
+              "environment": "blt47630780e00a400b",
+              "locale": "fr-fr",
+              "time": "2024-12-20T06:08:02.032Z",
+              "user": "bltca5a2e5c98e92242",
+              "version": 1
+            },
+            {
+              "environment": "bltac433f3a012395fb",
+              "locale": "fr-fr",
+              "time": "2024-12-20T06:08:02.032Z",
+              "user": "bltca5a2e5c98e92242",
+              "version": 1
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "title": "Contentstack",
+    "locale": "en-us",
+    "uid": "bltcc33c37bedcddd57",
+    "_content_type_uid": "company",
+    "_version": 4,
+    "_in_progress": false,
+    "_content_type_title": "Company",
+    "publish_details": [
+      {
+        "environment": "blt47630780e00a400b",
+        "locale": "en-us",
+        "time": "2024-12-20T06:11:43.283Z",
+        "user": "bltca5a2e5c98e92242",
+        "version": 4
+      },
+      {
+        "environment": "bltac433f3a012395fb",
+        "locale": "en-us",
+        "time": "2024-12-20T06:11:43.283Z",
+        "user": "bltca5a2e5c98e92242",
+        "version": 4
+      }
+    ],
+    "assets_references": [],
+    "_metadata": {
+      "references": []
+    }
+  },
+  {
+    "locale": "fr-fr",
+    "uid": "blt6f0e30fbd9e033d0",
+    "_content_type_uid": "author",
+    "_in_progress": false,
+    "_version": 1,
+    "title": "Sindhur - French",
+    "_content_type_title": "Author",
+    "has_child": true,
+    "publish_details": [
+      {
+        "environment": "blt47630780e00a400b",
+        "locale": "fr-fr",
+        "time": "2024-12-19T21:10:07.550Z",
+        "user": "bltca5a2e5c98e92242",
+        "version": 1
+      },
+      {
+        "environment": "bltac433f3a012395fb",
+        "locale": "fr-fr",
+        "time": "2024-12-19T21:10:07.550Z",
+        "user": "bltca5a2e5c98e92242",
+        "version": 1
+      }
+    ],
+    "assets_references": [],
+    "_metadata": {
+      "references": [
+        {
+          "uid": "bltcc33c37bedcddd57",
+          "title": "Contentstack",
+          "locale": "en-us",
+          "_version": 4,
+          "_content_type_uid": "company",
+          "_in_progress": false,
+          "parent_uid": "blt6f0e30fbd9e033d0",
+          "has_child": false,
+          "_content_type_title": "Company",
+          "publish_details": [
+            {
+              "environment": "blt47630780e00a400b",
+              "locale": "fr-fr",
+              "time": "2024-12-20T06:11:43.283Z",
+              "user": "bltca5a2e5c98e92242",
+              "version": 4
+            },
+            {
+              "environment": "bltac433f3a012395fb",
+              "locale": "fr-fr",
+              "time": "2024-12-20T06:11:43.283Z",
+              "user": "bltca5a2e5c98e92242",
+              "version": 4
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "title": "Zuhair",
+    "locale": "en-us",
+    "uid": "blte9aaea031b02e0cd",
+    "_content_type_uid": "author",
+    "_version": 1,
+    "_in_progress": false,
+    "_content_type_title": "Author",
+    "has_child": true,
+    "publish_details": [
+      {
+        "environment": "blt47630780e00a400b",
+        "locale": "en-us",
+        "time": "2024-12-17T06:00:18.705Z",
+        "user": "bltca5a2e5c98e92242",
+        "version": 1
+      },
+      {
+        "environment": "bltac433f3a012395fb",
+        "locale": "en-us",
+        "time": "2024-12-17T06:00:18.705Z",
+        "user": "bltca5a2e5c98e92242",
+        "version": 1
+      }
+    ],
+    "assets_references": [],
+    "_metadata": {
+      "references": [
+        {
+          "uid": "bltcc33c37bedcddd57",
+          "title": "Contentstack",
+          "locale": "en-us",
+          "_version": 4,
+          "_content_type_uid": "company",
+          "_in_progress": false,
+          "parent_uid": "blte9aaea031b02e0cd",
+          "has_child": false,
+          "_content_type_title": "Company",
+          "publish_details": [
+            {
+              "environment": "blt47630780e00a400b",
+              "locale": "en-us",
+              "time": "2024-12-20T06:11:43.283Z",
+              "user": "bltca5a2e5c98e92242",
+              "version": 4
+            },
+            {
+              "environment": "bltac433f3a012395fb",
+              "locale": "en-us",
+              "time": "2024-12-20T06:11:43.283Z",
+              "user": "bltca5a2e5c98e92242",
+              "version": 4
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "title": "Contentstack",
+    "locale": "en-us",
+    "uid": "bltcc33c37bedcddd57",
+    "_content_type_uid": "company",
+    "_version": 4,
+    "_in_progress": false,
+    "_content_type_title": "Company",
+    "publish_details": [
+      {
+        "environment": "blt47630780e00a400b",
+        "locale": "fr-fr",
+        "time": "2024-12-20T06:11:43.283Z",
+        "user": "bltca5a2e5c98e92242",
+        "version": 4
+      },
+      {
+        "environment": "bltac433f3a012395fb",
+        "locale": "fr-fr",
+        "time": "2024-12-20T06:11:43.283Z",
+        "user": "bltca5a2e5c98e92242",
+        "version": 4
+      }
+    ],
+    "assets_references": [],
+    "_metadata": {
+      "references": []
+    }
+  },
+  {
+    "title": "Zuhair",
+    "locale": "en-us",
+    "uid": "blte9aaea031b02e0cd",
+    "_content_type_uid": "author",
+    "_version": 1,
+    "_in_progress": false,
+    "_content_type_title": "Author",
+    "has_child": true,
+    "publish_details": [
+      {
+        "environment": "blt47630780e00a400b",
+        "locale": "fr-fr",
+        "time": "2024-12-17T06:02:26.098Z",
+        "user": "bltca5a2e5c98e92242",
+        "version": 1
+      },
+      {
+        "environment": "bltac433f3a012395fb",
+        "locale": "fr-fr",
+        "time": "2024-12-17T06:02:26.098Z",
+        "user": "bltca5a2e5c98e92242",
+        "version": 1
+      }
+    ],
+    "assets_references": [],
+    "_metadata": {
+      "references": [
+        {
+          "uid": "bltcc33c37bedcddd57",
+          "title": "Contentstack",
+          "locale": "en-us",
+          "_version": 4,
+          "_content_type_uid": "company",
+          "_in_progress": false,
+          "parent_uid": "blte9aaea031b02e0cd",
+          "has_child": false,
+          "_content_type_title": "Company",
+          "publish_details": [
+            {
+              "environment": "blt47630780e00a400b",
+              "locale": "fr-fr",
+              "time": "2024-12-20T06:11:43.283Z",
+              "user": "bltca5a2e5c98e92242",
+              "version": 4
+            },
+            {
+              "environment": "bltac433f3a012395fb",
+              "locale": "fr-fr",
+              "time": "2024-12-20T06:11:43.283Z",
+              "user": "bltca5a2e5c98e92242",
+              "version": 4
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

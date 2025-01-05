@@ -1,0 +1,411 @@
+{
+  "variants": [
+    {
+      "entry_uid": "Base Entry",
+      "references": [
+        {
+          "title": "The future of business with AI",
+          "locale": "en-us",
+          "entry_uid": "blt8477e989295ce34a",
+          "content_type_uid": "blog_post",
+          "references": [
+            {
+              "title": "Robotics – Changing Our Lives and Future",
+              "locale": "en-us",
+              "entry_uid": "blt77dc4716d12a415b",
+              "content_type_uid": "blog_post",
+              "references": [
+                {
+                  "title": "Traditional vs. Decoupled vs. Headless CMS – Know the Difference",
+                  "locale": "en-us",
+                  "entry_uid": "blt653e2662e0e1ac42",
+                  "content_type_uid": "blog_post"
+                },
+                {
+                  "title": "The future of business with AI",
+                  "locale": "en-us",
+                  "entry_uid": "blt8477e989295ce34a",
+                  "content_type_uid": "blog_post"
+                },
+                {
+                  "title": "Zora Neale Hurston",
+                  "locale": "en-us",
+                  "entry_uid": "blteb94cfaace273cd5",
+                  "content_type_uid": "author"
+                }
+              ]
+            },
+            {
+              "title": "Maya Angelou",
+              "locale": "en-us",
+              "entry_uid": "blte660d073400d81b7",
+              "content_type_uid": "author",
+              "references": [
+                {
+                  "title": "Contentstack",
+                  "locale": "en-us",
+                  "entry_uid": "blt3c606951b3730263",
+                  "content_type_uid": "company",
+                  "references": [
+                    {
+                      "title": "India",
+                      "locale": "en-us",
+                      "entry_uid": "bltc5ab0903a5f0fd40",
+                      "content_type_uid": "country"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "The  modern Cloud Ecosystem",
+              "locale": "en-us",
+              "entry_uid": "blt47132635c86bb788",
+              "content_type_uid": "blog_post",
+              "references": [
+                {
+                  "entry_uid": "blteb94cfaace273cd5",
+                  "content_type_uid": "author"
+                },
+                {
+                  "title": "Data Mining and its significance in Business Analytics",
+                  "locale": "en-us",
+                  "entry_uid": "blt4dd82445c1cd01a6",
+                  "content_type_uid": "blog_post",
+                  "references": [
+                    {
+                      "entry_uid": "blt47132635c86bb788",
+                      "content_type_uid": "blog_post"
+                    },
+                    {
+                      "entry_uid": "blt77dc4716d12a415b",
+                      "content_type_uid": "blog_post"
+                    },
+                    {
+                      "entry_uid": "blte660d073400d81b7",
+                      "content_type_uid": "author"
+                    }
+                  ]
+                },
+                {
+                  "title": "Headless CMS: The Solution to Top Challenges in Ecommerce",
+                  "locale": "en-us",
+                  "entry_uid": "blt16ee9dd27c21c64e",
+                  "content_type_uid": "blog_post",
+                  "references": [
+                    {
+                      "title": "Charles Dickens",
+                      "locale": "en-us",
+                      "entry_uid": "blt559eeca8c80afe35",
+                      "content_type_uid": "author"
+                    },
+                    {
+                      "entry_uid": "blt4dd82445c1cd01a6",
+                      "content_type_uid": "blog_post"
+                    },
+                    {
+                      "entry_uid": "blt8477e989295ce34a",
+                      "content_type_uid": "blog_post"
+                    }
+                  ]
+                },
+                {
+                  "entry_uid": "blt653e2662e0e1ac42",
+                  "content_type_uid": "blog_post"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "David",
+          "locale": "en-us",
+          "entry_uid": "bltde17ace76d6ecb71",
+          "content_type_uid": "author",
+          "references": [
+            {
+              "title": "Contentstack",
+              "locale": "en-us",
+              "entry_uid": "blt3c606951b3730263",
+              "content_type_uid": "company",
+              "references": [
+                {
+                  "title": "India",
+                  "locale": "en-us",
+                  "entry_uid": "bltc5ab0903a5f0fd40",
+                  "content_type_uid": "country"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entry_uid": "cs81cb280d73c47973",
+      "references": [
+        {
+          "title": "The future of business with AI",
+          "locale": "en-us",
+          "entry_uid": "blt8477e989295ce34a",
+          "content_type_uid": "blog_post",
+          "references": [
+            {
+              "title": "Robotics – Changing Our Lives and Future",
+              "locale": "en-us",
+              "entry_uid": "blt77dc4716d12a415b",
+              "content_type_uid": "blog_post",
+              "references": [
+                {
+                  "title": "Traditional vs. Decoupled vs. Headless CMS – Know the Difference",
+                  "locale": "en-us",
+                  "entry_uid": "blt653e2662e0e1ac42",
+                  "content_type_uid": "blog_post"
+                },
+                {
+                  "title": "The future of business with AI",
+                  "locale": "en-us",
+                  "entry_uid": "blt8477e989295ce34a",
+                  "content_type_uid": "blog_post"
+                },
+                {
+                  "title": "Zora Neale Hurston",
+                  "locale": "en-us",
+                  "entry_uid": "blteb94cfaace273cd5",
+                  "content_type_uid": "author"
+                }
+              ]
+            },
+            {
+              "title": "Maya Angelou",
+              "locale": "en-us",
+              "entry_uid": "blte660d073400d81b7",
+              "content_type_uid": "author",
+              "references": [
+                {
+                  "title": "Contentstack",
+                  "locale": "en-us",
+                  "entry_uid": "blt3c606951b3730263",
+                  "content_type_uid": "company",
+                  "references": [
+                    {
+                      "title": "India",
+                      "locale": "en-us",
+                      "entry_uid": "bltc5ab0903a5f0fd40",
+                      "content_type_uid": "country"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "The  modern Cloud Ecosystem",
+              "locale": "en-us",
+              "entry_uid": "blt47132635c86bb788",
+              "content_type_uid": "blog_post",
+              "references": [
+                {
+                  "entry_uid": "blteb94cfaace273cd5",
+                  "content_type_uid": "author"
+                },
+                {
+                  "title": "Data Mining and its significance in Business Analytics",
+                  "locale": "en-us",
+                  "entry_uid": "blt4dd82445c1cd01a6",
+                  "content_type_uid": "blog_post",
+                  "references": [
+                    {
+                      "entry_uid": "blt47132635c86bb788",
+                      "content_type_uid": "blog_post"
+                    },
+                    {
+                      "entry_uid": "blt77dc4716d12a415b",
+                      "content_type_uid": "blog_post"
+                    },
+                    {
+                      "entry_uid": "blte660d073400d81b7",
+                      "content_type_uid": "author"
+                    }
+                  ]
+                },
+                {
+                  "title": "Headless CMS: The Solution to Top Challenges in Ecommerce",
+                  "locale": "en-us",
+                  "entry_uid": "blt16ee9dd27c21c64e",
+                  "content_type_uid": "blog_post",
+                  "references": [
+                    {
+                      "title": "Charles Dickens",
+                      "locale": "en-us",
+                      "entry_uid": "blt559eeca8c80afe35",
+                      "content_type_uid": "author"
+                    },
+                    {
+                      "entry_uid": "blt4dd82445c1cd01a6",
+                      "content_type_uid": "blog_post"
+                    },
+                    {
+                      "entry_uid": "blt8477e989295ce34a",
+                      "content_type_uid": "blog_post"
+                    }
+                  ]
+                },
+                {
+                  "entry_uid": "blt653e2662e0e1ac42",
+                  "content_type_uid": "blog_post"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "David",
+          "locale": "en-us",
+          "entry_uid": "bltde17ace76d6ecb71",
+          "content_type_uid": "author",
+          "references": [
+            {
+              "title": "Contentstack",
+              "locale": "en-us",
+              "entry_uid": "blt3c606951b3730263",
+              "content_type_uid": "company",
+              "references": [
+                {
+                  "title": "India",
+                  "locale": "en-us",
+                  "entry_uid": "bltc5ab0903a5f0fd40",
+                  "content_type_uid": "country"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entry_uid": "csa2e17e2b1ca3e650",
+      "references": [
+        {
+          "title": "The future of business with AI",
+          "locale": "en-us",
+          "entry_uid": "blt8477e989295ce34a",
+          "content_type_uid": "blog_post",
+          "references": [
+            {
+              "title": "Robotics – Changing Our Lives and Future",
+              "locale": "en-us",
+              "entry_uid": "blt77dc4716d12a415b",
+              "content_type_uid": "blog_post",
+              "references": [
+                {
+                  "title": "Traditional vs. Decoupled vs. Headless CMS – Know the Difference",
+                  "locale": "en-us",
+                  "entry_uid": "blt653e2662e0e1ac42",
+                  "content_type_uid": "blog_post"
+                },
+                {
+                  "title": "The future of business with AI",
+                  "locale": "en-us",
+                  "entry_uid": "blt8477e989295ce34a",
+                  "content_type_uid": "blog_post"
+                },
+                {
+                  "title": "Zora Neale Hurston",
+                  "locale": "en-us",
+                  "entry_uid": "blteb94cfaace273cd5",
+                  "content_type_uid": "author"
+                }
+              ]
+            },
+            {
+              "title": "Maya Angelou",
+              "locale": "en-us",
+              "entry_uid": "blte660d073400d81b7",
+              "content_type_uid": "author",
+              "references": [
+                {
+                  "title": "Contentstack",
+                  "locale": "en-us",
+                  "entry_uid": "blt3c606951b3730263",
+                  "content_type_uid": "company",
+                  "references": [
+                    {
+                      "title": "India",
+                      "locale": "en-us",
+                      "entry_uid": "bltc5ab0903a5f0fd40",
+                      "content_type_uid": "country"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "The  modern Cloud Ecosystem",
+              "locale": "en-us",
+              "entry_uid": "blt47132635c86bb788",
+              "content_type_uid": "blog_post",
+              "references": [
+                {
+                  "entry_uid": "blteb94cfaace273cd5",
+                  "content_type_uid": "author"
+                },
+                {
+                  "title": "Data Mining and its significance in Business Analytics",
+                  "locale": "en-us",
+                  "entry_uid": "blt4dd82445c1cd01a6",
+                  "content_type_uid": "blog_post",
+                  "references": [
+                    {
+                      "entry_uid": "blt47132635c86bb788",
+                      "content_type_uid": "blog_post"
+                    },
+                    {
+                      "entry_uid": "blt77dc4716d12a415b",
+                      "content_type_uid": "blog_post"
+                    },
+                    {
+                      "entry_uid": "blte660d073400d81b7",
+                      "content_type_uid": "author"
+                    }
+                  ]
+                },
+                {
+                  "title": "Headless CMS: The Solution to Top Challenges in Ecommerce",
+                  "locale": "en-us",
+                  "entry_uid": "blt16ee9dd27c21c64e",
+                  "content_type_uid": "blog_post",
+                  "references": [
+                    {
+                      "title": "Charles Dickens",
+                      "locale": "en-us",
+                      "entry_uid": "blt559eeca8c80afe35",
+                      "content_type_uid": "author"
+                    },
+                    {
+                      "entry_uid": "blt4dd82445c1cd01a6",
+                      "content_type_uid": "blog_post"
+                    },
+                    {
+                      "entry_uid": "blt8477e989295ce34a",
+                      "content_type_uid": "blog_post"
+                    }
+                  ]
+                },
+                {
+                  "entry_uid": "blt653e2662e0e1ac42",
+                  "content_type_uid": "blog_post"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "W. E. B. Du Bois",
+          "locale": "en-us",
+          "entry_uid": "blta66457b30478b35f",
+          "content_type_uid": "author"
+        }
+      ]
+    }
+  ]
+}

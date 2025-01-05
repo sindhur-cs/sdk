@@ -1,0 +1,532 @@
+[
+  {
+    "_content_type_uid": "blog_post",
+    "locale": "en-us",
+    "uid": "blt653e2662e0e1ac42",
+    "_in_progress": false,
+    "_version": 11,
+    "_workflow": {
+      "uid": "blt5f6a9ea00d90359b",
+      "branch": "main",
+      "updated_at": "2024-02-07T05:28:25.955Z",
+      "updated_by": "blt489da77011c91dc0",
+      "version": 3,
+      "assigned_to": [],
+      "assigned_by_roles": [],
+      "name": "Draft",
+      "color": "#33c0b7"
+    },
+    "title": "Traditional vs. Decoupled vs. Headless CMS – Know the Difference",
+    "_content_type_title": "Blog Entry",
+    "has_child": true,
+    "publish_details": [
+      {
+        "environment": "blt631043aaf0dd5b90",
+        "locale": "en-us",
+        "time": "2024-03-07T17:00:30+05:30",
+        "scheduled_at": "2024-03-07T17:00:30+05:30",
+        "user": "blt489da77011c91dc0",
+        "action": "publish",
+        "job_id": "1b64eb87-871b-5223-a073-f77d48525a99",
+        "version": 4
+      },
+      {
+        "environment": "blt3471aa9d7aa16a98",
+        "locale": "en-us",
+        "time": "2024-03-07T17:00:30+05:30",
+        "scheduled_at": "2024-03-07T17:00:30+05:30",
+        "user": "blt489da77011c91dc0",
+        "action": "publish",
+        "job_id": "45dcbbe5-4f19-5054-9ae1-1effef5debbf",
+        "version": 4
+      },
+      {
+        "environment": "blt3471aa9d7aa16a98",
+        "locale": "en-us",
+        "time": "2024-11-21T11:11:30.511Z",
+        "user": "blt489da77011c91dc0",
+        "version": 9
+      },
+      {
+        "environment": "blt631043aaf0dd5b90",
+        "locale": "en-us",
+        "time": "2024-11-21T11:11:30.511Z",
+        "user": "blt489da77011c91dc0",
+        "version": 9
+      }
+    ],
+    "_rules": [],
+    "assets_references": [
+      {
+        "uid": "bltbf48be8f76dbfaae",
+        "title": "Headless CMS Solution",
+        "_version": 1,
+        "parent_uid": "blt653e2662e0e1ac42",
+        "asset_parent_uid": "blte59246654a4d0887",
+        "publish_details": [
+          {
+            "environment": "blt3471aa9d7aa16a98",
+            "locale": "en-us",
+            "time": "2024-01-12T12:07:23.855Z",
+            "user": "blt2992887479ec1a36",
+            "version": 1
+          },
+          {
+            "environment": "blt631043aaf0dd5b90",
+            "locale": "en-us",
+            "time": "2024-03-07T11:30:30.385Z",
+            "user": "blt489da77011c91dc0",
+            "version": 1
+          },
+          {
+            "environment": "blt48dd13879f476b5a",
+            "locale": "en-us",
+            "time": "2024-08-26T11:47:47.077Z",
+            "user": "blt489da77011c91dc0",
+            "version": 1
+          }
+        ]
+      }
+    ],
+    "_metadata": {
+      "references": [
+        {
+          "uid": "blt8477e989295ce34a",
+          "title": "The future of business with AI",
+          "locale": "en-us",
+          "_version": 4,
+          "_content_type_uid": "blog_post",
+          "_in_progress": false,
+          "parent_uid": "blt653e2662e0e1ac42",
+          "has_child": true,
+          "_content_type_title": "Blog Entry",
+          "publish_details": [],
+          "_rules": []
+        },
+        {
+          "uid": "bltde17ace76d6ecb71",
+          "title": "David",
+          "locale": "en-us",
+          "_version": 6,
+          "_content_type_uid": "author",
+          "_in_progress": false,
+          "parent_uid": "blt653e2662e0e1ac42",
+          "has_child": true,
+          "_workflow": {
+            "uid": "blt5f6a9ea00d90359b",
+            "updated_at": "2024-01-18T14:23:12.918Z",
+            "updated_by": "blt489da77011c91dc0",
+            "version": 1,
+            "name": "Draft",
+            "color": "#33c0b7"
+          },
+          "_content_type_title": "Author",
+          "publish_details": [
+            {
+              "environment": "blt631043aaf0dd5b90",
+              "locale": "en-us",
+              "time": "2024-12-18T00:27:37.161Z",
+              "user": "blt489da77011c91dc0",
+              "version": 6
+            }
+          ],
+          "_rules": []
+        },
+        {
+          "uid": "blt47132635c86bb788",
+          "title": "The  modern Cloud Ecosystem",
+          "locale": "en-us",
+          "_version": 3,
+          "_content_type_uid": "blog_post",
+          "_in_progress": false,
+          "parent_uid": "blt653e2662e0e1ac42",
+          "has_child": true,
+          "_content_type_title": "Blog Entry",
+          "publish_details": [
+            {
+              "environment": "blt48dd13879f476b5a",
+              "locale": "en-us",
+              "time": "2024-08-26T11:47:46.406Z",
+              "user": "blt489da77011c91dc0",
+              "version": 3
+            }
+          ],
+          "_rules": []
+        },
+        {
+          "uid": "blt4dd82445c1cd01a6",
+          "title": "Data Mining and its significance in Business Analytics",
+          "locale": "en-us",
+          "_version": 2,
+          "_content_type_uid": "blog_post",
+          "_in_progress": false,
+          "parent_uid": "blt653e2662e0e1ac42",
+          "has_child": true,
+          "_content_type_title": "Blog Entry",
+          "publish_details": [
+            {
+              "environment": "blt48dd13879f476b5a",
+              "locale": "en-us",
+              "time": "2024-08-26T11:47:46.768Z",
+              "user": "blt489da77011c91dc0",
+              "version": 2
+            }
+          ],
+          "_rules": []
+        }
+      ]
+    }
+  },
+  {
+    "_content_type_uid": "blog_post",
+    "locale": "en-us",
+    "uid": "blt653e2662e0e1ac42",
+    "_in_progress": false,
+    "_version": 11,
+    "_workflow": {
+      "uid": "blt5f6a9ea00d90359b",
+      "branch": "main",
+      "updated_at": "2024-02-07T05:28:25.955Z",
+      "updated_by": "blt489da77011c91dc0",
+      "version": 3,
+      "assigned_to": [],
+      "assigned_by_roles": [],
+      "name": "Draft",
+      "color": "#33c0b7"
+    },
+    "title": "Traditional vs. Decoupled vs. Headless CMS – Know the Difference",
+    "_content_type_title": "Blog Entry",
+    "has_child": true,
+    "publish_details": [
+      {
+        "environment": "blt631043aaf0dd5b90",
+        "locale": "en-us",
+        "time": "2024-03-07T17:00:30+05:30",
+        "scheduled_at": "2024-03-07T17:00:30+05:30",
+        "user": "blt489da77011c91dc0",
+        "action": "publish",
+        "job_id": "1b64eb87-871b-5223-a073-f77d48525a99",
+        "version": 4
+      },
+      {
+        "environment": "blt3471aa9d7aa16a98",
+        "locale": "en-us",
+        "time": "2024-03-07T17:00:30+05:30",
+        "scheduled_at": "2024-03-07T17:00:30+05:30",
+        "user": "blt489da77011c91dc0",
+        "action": "publish",
+        "job_id": "45dcbbe5-4f19-5054-9ae1-1effef5debbf",
+        "version": 4
+      },
+      {
+        "environment": "blt3471aa9d7aa16a98",
+        "locale": "en-us",
+        "time": "2024-11-21T11:11:30.511Z",
+        "user": "blt489da77011c91dc0",
+        "version": 9
+      },
+      {
+        "environment": "blt631043aaf0dd5b90",
+        "locale": "en-us",
+        "time": "2024-11-21T11:11:30.511Z",
+        "user": "blt489da77011c91dc0",
+        "version": 9
+      }
+    ],
+    "_rules": [],
+    "assets_references": [
+      {
+        "uid": "bltbf48be8f76dbfaae",
+        "title": "Headless CMS Solution",
+        "_version": 1,
+        "parent_uid": "blt653e2662e0e1ac42",
+        "asset_parent_uid": "blte59246654a4d0887",
+        "publish_details": [
+          {
+            "environment": "blt3471aa9d7aa16a98",
+            "locale": "en-us",
+            "time": "2024-01-12T12:07:23.855Z",
+            "user": "blt2992887479ec1a36",
+            "version": 1
+          },
+          {
+            "environment": "blt631043aaf0dd5b90",
+            "locale": "en-us",
+            "time": "2024-03-07T11:30:30.385Z",
+            "user": "blt489da77011c91dc0",
+            "version": 1
+          },
+          {
+            "environment": "blt48dd13879f476b5a",
+            "locale": "en-us",
+            "time": "2024-08-26T11:47:47.077Z",
+            "user": "blt489da77011c91dc0",
+            "version": 1
+          }
+        ]
+      }
+    ],
+    "_metadata": {
+      "references": [
+        {
+          "uid": "blt8477e989295ce34a",
+          "title": "The future of business with AI",
+          "locale": "en-us",
+          "_version": 4,
+          "_content_type_uid": "blog_post",
+          "_in_progress": false,
+          "parent_uid": "blt653e2662e0e1ac42",
+          "has_child": true,
+          "_content_type_title": "Blog Entry",
+          "publish_details": [],
+          "_rules": []
+        },
+        {
+          "uid": "bltde17ace76d6ecb71",
+          "title": "David",
+          "locale": "en-us",
+          "_version": 6,
+          "_content_type_uid": "author",
+          "_in_progress": false,
+          "parent_uid": "blt653e2662e0e1ac42",
+          "has_child": true,
+          "_workflow": {
+            "uid": "blt5f6a9ea00d90359b",
+            "updated_at": "2024-01-18T14:23:12.918Z",
+            "updated_by": "blt489da77011c91dc0",
+            "version": 1,
+            "name": "Draft",
+            "color": "#33c0b7"
+          },
+          "_content_type_title": "Author",
+          "publish_details": [
+            {
+              "environment": "blt631043aaf0dd5b90",
+              "locale": "en-us",
+              "time": "2024-12-18T00:27:37.161Z",
+              "user": "blt489da77011c91dc0",
+              "version": 6
+            }
+          ],
+          "_rules": []
+        },
+        {
+          "uid": "blt47132635c86bb788",
+          "title": "The  modern Cloud Ecosystem",
+          "locale": "en-us",
+          "_version": 3,
+          "_content_type_uid": "blog_post",
+          "_in_progress": false,
+          "parent_uid": "blt653e2662e0e1ac42",
+          "has_child": true,
+          "_content_type_title": "Blog Entry",
+          "publish_details": [
+            {
+              "environment": "blt48dd13879f476b5a",
+              "locale": "en-us",
+              "time": "2024-08-26T11:47:46.406Z",
+              "user": "blt489da77011c91dc0",
+              "version": 3
+            }
+          ],
+          "_rules": []
+        },
+        {
+          "uid": "blt4dd82445c1cd01a6",
+          "title": "Data Mining and its significance in Business Analytics",
+          "locale": "en-us",
+          "_version": 2,
+          "_content_type_uid": "blog_post",
+          "_in_progress": false,
+          "parent_uid": "blt653e2662e0e1ac42",
+          "has_child": true,
+          "_content_type_title": "Blog Entry",
+          "publish_details": [
+            {
+              "environment": "blt48dd13879f476b5a",
+              "locale": "en-us",
+              "time": "2024-08-26T11:47:46.768Z",
+              "user": "blt489da77011c91dc0",
+              "version": 2
+            }
+          ],
+          "_rules": []
+        }
+      ]
+    },
+    "_variant": {
+      "_change_set": [],
+      "_order": [],
+      "_instance_uid": "blt1ed5efa61b354e51c672",
+      "_base_entry_version": 11,
+      "_uid": "cs81cb280d73c47973"
+    }
+  },
+  {
+    "_content_type_uid": "blog_post",
+    "locale": "en-us",
+    "uid": "blt653e2662e0e1ac42",
+    "_in_progress": false,
+    "_version": 11,
+    "_workflow": {
+      "uid": "blt5f6a9ea00d90359b",
+      "branch": "main",
+      "updated_at": "2024-02-07T05:28:25.955Z",
+      "updated_by": "blt489da77011c91dc0",
+      "version": 3,
+      "assigned_to": [],
+      "assigned_by_roles": [],
+      "name": "Draft",
+      "color": "#33c0b7"
+    },
+    "title": "Traditional vs. Decoupled vs. Headless CMS – Know the Difference",
+    "_content_type_title": "Blog Entry",
+    "has_child": true,
+    "publish_details": [
+      {
+        "environment": "blt631043aaf0dd5b90",
+        "locale": "en-us",
+        "time": "2024-03-07T17:00:30+05:30",
+        "scheduled_at": "2024-03-07T17:00:30+05:30",
+        "user": "blt489da77011c91dc0",
+        "action": "publish",
+        "job_id": "1b64eb87-871b-5223-a073-f77d48525a99",
+        "version": 4
+      },
+      {
+        "environment": "blt3471aa9d7aa16a98",
+        "locale": "en-us",
+        "time": "2024-03-07T17:00:30+05:30",
+        "scheduled_at": "2024-03-07T17:00:30+05:30",
+        "user": "blt489da77011c91dc0",
+        "action": "publish",
+        "job_id": "45dcbbe5-4f19-5054-9ae1-1effef5debbf",
+        "version": 4
+      },
+      {
+        "environment": "blt3471aa9d7aa16a98",
+        "locale": "en-us",
+        "time": "2024-11-21T11:11:30.511Z",
+        "user": "blt489da77011c91dc0",
+        "version": 9
+      },
+      {
+        "environment": "blt631043aaf0dd5b90",
+        "locale": "en-us",
+        "time": "2024-11-21T11:11:30.511Z",
+        "user": "blt489da77011c91dc0",
+        "version": 9
+      }
+    ],
+    "_rules": [],
+    "assets_references": [
+      {
+        "uid": "bltbf48be8f76dbfaae",
+        "title": "Headless CMS Solution",
+        "_version": 1,
+        "parent_uid": "blt653e2662e0e1ac42",
+        "asset_parent_uid": "blte59246654a4d0887",
+        "publish_details": [
+          {
+            "environment": "blt3471aa9d7aa16a98",
+            "locale": "en-us",
+            "time": "2024-01-12T12:07:23.855Z",
+            "user": "blt2992887479ec1a36",
+            "version": 1
+          },
+          {
+            "environment": "blt631043aaf0dd5b90",
+            "locale": "en-us",
+            "time": "2024-03-07T11:30:30.385Z",
+            "user": "blt489da77011c91dc0",
+            "version": 1
+          },
+          {
+            "environment": "blt48dd13879f476b5a",
+            "locale": "en-us",
+            "time": "2024-08-26T11:47:47.077Z",
+            "user": "blt489da77011c91dc0",
+            "version": 1
+          }
+        ]
+      }
+    ],
+    "_metadata": {
+      "references": [
+        {
+          "uid": "blt8477e989295ce34a",
+          "title": "The future of business with AI",
+          "locale": "en-us",
+          "_version": 4,
+          "_content_type_uid": "blog_post",
+          "_in_progress": false,
+          "parent_uid": "blt653e2662e0e1ac42",
+          "has_child": true,
+          "_content_type_title": "Blog Entry",
+          "publish_details": [],
+          "_rules": []
+        },
+        {
+          "uid": "blt47132635c86bb788",
+          "title": "The  modern Cloud Ecosystem",
+          "locale": "en-us",
+          "_version": 3,
+          "_content_type_uid": "blog_post",
+          "_in_progress": false,
+          "parent_uid": "blt653e2662e0e1ac42",
+          "has_child": true,
+          "_content_type_title": "Blog Entry",
+          "publish_details": [
+            {
+              "environment": "blt48dd13879f476b5a",
+              "locale": "en-us",
+              "time": "2024-08-26T11:47:46.406Z",
+              "user": "blt489da77011c91dc0",
+              "version": 3
+            }
+          ],
+          "_rules": []
+        },
+        {
+          "uid": "blt4dd82445c1cd01a6",
+          "title": "Data Mining and its significance in Business Analytics",
+          "locale": "en-us",
+          "_version": 2,
+          "_content_type_uid": "blog_post",
+          "_in_progress": false,
+          "parent_uid": "blt653e2662e0e1ac42",
+          "has_child": true,
+          "_content_type_title": "Blog Entry",
+          "publish_details": [
+            {
+              "environment": "blt48dd13879f476b5a",
+              "locale": "en-us",
+              "time": "2024-08-26T11:47:46.768Z",
+              "user": "blt489da77011c91dc0",
+              "version": 2
+            }
+          ],
+          "_rules": []
+        },
+        {
+          "uid": "blta66457b30478b35f",
+          "_content_type_uid": "author",
+          "path": "author",
+          "absolutePath": "author"
+        }
+      ]
+    },
+    "_variant": {
+      "_change_set": [
+        "title",
+        "author",
+        "date",
+        "body"
+      ],
+      "_order": [],
+      "_instance_uid": "blt0fcd0d1473fa1fedc314",
+      "_base_entry_version": 9,
+      "_uid": "csa2e17e2b1ca3e650"
+    }
+  }
+]
