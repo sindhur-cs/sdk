@@ -58,7 +58,7 @@ async function loginAndFetch(mail: string, pass: string) {
     return loginRes.data.user.authtoken;
 }
 
-const main = async (authtoken: string, variants: any[]) => {
+const main = async (authtoken: string, variants: any[], baseEntry: any) => {
     const entryReferenceResolver = new EntryReferenceResolver();
     const allVariantsResults: any[] = [];
     const processedUids = new Set<string>();
@@ -104,7 +104,7 @@ const main = async (authtoken: string, variants: any[]) => {
         await Promise.all(variants.map(async (variant: any) => {       
             let result : any[] = [];
             // await Promise.all(localeData.locales.map(async (locale: any) => {
-            await entryReferenceResolver.resolve(variant, _itemRetriever, _referenceProcessor(result), 10000, InvokingService.CMA, 'main', 'en-us');
+                await entryReferenceResolver.resolve(variant, _itemRetriever, _referenceProcessor(result), 10000, InvokingService.CMA, 'main', 'en-us');
             // }));
             
             const variantUid = variant?._variant?._uid || "Base Entry";
@@ -120,19 +120,23 @@ const main = async (authtoken: string, variants: any[]) => {
     // const modifiedResult = modifyRecursive(result, processedUids);
 
     // fs.writeFileSync("result.json", JSON.stringify(modifiedResult, null, 2), "utf-8");
-    fs.writeFileSync("allvariants.json", JSON.stringify({ variants: allVariantsResults }, null, 2), "utf-8");
+    fs.writeFileSync("allvariants.json", JSON.stringify(
+        { 
+            title: baseEntry.title, 
+            entry_uid: `${baseEntry.uid}-${baseEntry.locale.split("-")[0]}`, 
+            content_type_uid: baseEntry._content_type_uid, locale: baseEntry.locale, 
+            variants: allVariantsResults 
+        }, null, 2), "utf-8");
 }
 
 const modifyRecursive = (result: any, processedUids: Set<string>) => {    
     return result.filter((ele: any) => {
-        if(!processedUids.has(ele.uid)) {
-            // Rename uid and _content_type_uid
-            ele.entry_uid = ele.uid;
+        if(!processedUids.has(`${ele.uid}-${ele.locale.split("-")[0]}`)) {
+            ele.entry_uid = `${ele.uid}-${ele.locale.split("-")[0]}`;
             ele.content_type_uid = ele._content_type_uid;
             delete ele.uid;
             delete ele._content_type_uid;
 
-            // Remove specified fields
             delete ele._workflow;
             delete ele.publish_details;
             delete ele.has_child;
@@ -142,7 +146,6 @@ const modifyRecursive = (result: any, processedUids: Set<string>) => {
             delete ele.parent_uid;
             delete ele._content_type_title;
 
-            // Move references out of _metadata
             ele.references = ele._metadata?.references || [];
             delete ele._metadata;
 
@@ -155,9 +158,8 @@ const modifyRecursive = (result: any, processedUids: Set<string>) => {
             
             ele.references = ele.references.map((ref: any) => {
                 return recursiveFunc(result, ref, processedUids);
-            }).filter(Boolean); // Remove any undefined/null entries
+            }).filter(Boolean);
 
-            // Remove references array if empty after filtering
             if (ele.references.length === 0) {
                 delete ele.references;
             }
@@ -168,24 +170,24 @@ const modifyRecursive = (result: any, processedUids: Set<string>) => {
 }
 
 const recursiveFunc = (result: any, ref: any, processedUids: Set<string>) => {
-    if (processedUids.has(ref.uid)) {
+    if (processedUids.has(`${ref.uid}-${ref.locale.split("-")[0]}`)) {
         return {
-            entry_uid: ref.uid,
+            title: ref.title,
+            locale: ref.locale,
+            entry_uid: `${ref.uid}-${ref.locale.split("-")[0]}`,
             content_type_uid: ref._content_type_uid,
         };
     }
 
-    processedUids.add(ref.uid);
+    processedUids.add(`${ref.uid}-${ref.locale.split("-")[0]}`);
     
     const referredResult = result.find((res: any) => res.uid === ref.uid);
     
-    // Rename uid and _content_type_uid
-    ref.entry_uid = ref.uid;
+    ref.entry_uid = `${ref.uid}-${ref.locale.split("-")[0]}`;
     ref.content_type_uid = ref._content_type_uid;
     delete ref.uid;
     delete ref._content_type_uid;
 
-    // Remove specified fields
     delete ref._workflow;
     delete ref.publish_details;
     delete ref.has_child;
@@ -195,7 +197,6 @@ const recursiveFunc = (result: any, ref: any, processedUids: Set<string>) => {
     delete ref.parent_uid;
     delete ref._content_type_title;
 
-    // Move references out of _metadata
     ref.references = ref._metadata?.references || [];
     delete ref._metadata;
 
@@ -209,9 +210,8 @@ const recursiveFunc = (result: any, ref: any, processedUids: Set<string>) => {
     const fullRef = { ...ref };
     fullRef.references = referredResult._metadata?.references?.map((nestedRef: any) => 
         recursiveFunc(result, { ...nestedRef }, processedUids)
-    ).filter(Boolean) || []; // Remove any undefined/null entries
+    ).filter(Boolean) || [];
 
-    // Remove references array if empty after filtering
     if (fullRef.references.length === 0) {
         delete fullRef.references;
     }
@@ -274,7 +274,7 @@ const getVariants = async (authtoken: string, contentTypeUid: string, entryUid: 
 loginAndFetch(mail, pass)
     .then(async (authtoken) => {
         const variants = await getVariants(authtoken, data._content_type_uid, data.uid);
-        main(authtoken, variants);
+        main(authtoken, variants, variants[0]);
     })
     .catch((error) => {
         console.error(error);
